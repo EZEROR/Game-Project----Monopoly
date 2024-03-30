@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Plot">
+      <UniqueIdentifier>{516e5a9b-6a8e-4ba6-8cd4-ce82404975cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Interface">
+      <UniqueIdentifier>{b3510d37-cf06-46a2-a0ba-779fea7968c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject">
+      <UniqueIdentifier>{d8eb7473-0444-4232-aa14-98055e9486a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\AuctionPlot.cpp">
+      <Filter>源文件\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\HousePlot.cpp">
+      <Filter>源文件\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\TrainPlot.cpp">
+      <Filter>源文件\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\GamesetInterface.cpp">
+      <Filter>源文件\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\MainInterface.cpp">
+      <Filter>源文件\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Dice.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="player\Player.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\RandomPlot.cpp">
+      <Filter>源文件\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\PrisonPlot.cpp">
+      <Filter>源文件\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\BirthPointPlot.cpp">
+      <Filter>源文件\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\GameoverInterface.cpp">
+      <Filter>源文件\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\GeneratorPlot.cpp">
+      <Filter>源文件\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\Plot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\RoleInterface.cpp">
+      <Filter>源文件\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\GameInterface.cpp">
+      <Filter>源文件\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\LinerPlot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="plot\PlanePlot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plot\Plot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="player\Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="plot\asserts\RamdomPlot_cs.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="plot\asserts\RamdomPlot_deduct_money.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="plot\asserts\RamdomPlot_send_money.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="plot\asserts\RandomPlot.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="plot\asserts\TrainPlot_blue.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="plot\asserts\TrainPlot_green.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="plot\asserts\TrainPlot_red.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="plot\asserts\TrainPlot_write.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="plot\asserts\TrainPlot_yellow.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="plot\asserts\TrainPlotwindow.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\RamdomPlot_cs.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\RamdomPlot_deduct_money.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\RamdomPlot_send_money.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\RandomPlot.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\TrainPlot_blue.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\TrainPlot_green.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\TrainPlot_red.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\TrainPlot_write.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\TrainPlot_yellow.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\TrainPlotwindow.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\auction.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\birth.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\wealthwidget.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\红色发电站(1).jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\黄色发电站(1).jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\监狱(1).jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\监狱(弹窗).jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\拒绝支付(1).jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\蓝色发电站(1).jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\绿色发电站(1).jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\提前保释(1).jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="asserts\无人发电站(1).jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\111.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\222.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\333.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\b1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\b2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\bbtn.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\gbtn.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\gs2bk.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\gsbk.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\hk2btn.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\hkbtn.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\kesulu new.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\Liyue.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\MainInterface.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\music.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\Reunion.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\seele new.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\smallbbtn .png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\wealthwidget.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\财富框.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\丁真选择一.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\马老师.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Images\胜利背景.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="interface\background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
